@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+    background: url(../images/daniel-storek-1552081-unsplash.jpg);
+}
