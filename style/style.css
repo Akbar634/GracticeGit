@@ -8,10 +8,27 @@
 .container{
     max-width: 1320px;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .header{
     height: 100vh;
     background: url(../images/daniel-storek-1552081-unsplash.jpg);
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu{
+    display: flex;
+}
+.header__menu-link{
+    color: black;
+    font-family: arial;
+    font-size: 18px;
+    margin-left: 40px;
+}
+.header__menu-link:hove{
+    color: #2b5ccd;
 }
